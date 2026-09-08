@@ -23,3 +23,32 @@ This project analyzes customer churn for a bank using a real-world dataset of 10
 ## Files
 - `Bank_Churn_Analysis.ipynb` — full analysis notebook
 - `Churn_Modelling.csv` — dataset (source: Kaggle)
+
+
+
+## 🤖 Machine Learning Model
+
+### Random Forest Classifier - Churn Prediction
+
+**Performance Metrics:**
+- **Accuracy: 85.85%** ✅
+- **Precision: 74.55%**
+- **Recall: 42.49%**
+- **F1-Score: 0.5413**
+
+### Top 5 Churn Drivers:
+1. **Age** (24.83%)
+2. **EstimatedSalary** (16.73%)
+3. **CreditScore** (16.18%)
+4. **Balance** (14.88%)
+5. **NumOfProducts** (13.12%)
+
+### Model Details:
+- **Algorithm:** Scikit-learn Random Forest
+- **Trees:** 100
+- **Training Samples:** 8,000
+- **Testing Samples:** 2,000
+- **Features:** 8 numeric features
+
+### Key Insights:
+This model identifies at-risk customers with 85.85% accuracy, enabling targeted retention strategies based on customer demographics and financial behavior.
